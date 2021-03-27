@@ -1,3 +1,8 @@
-import sum from './sum'
+import sum from './sum';
+import { t, testobj } from './type';
 
-console.log(sum(1,5));
+const x: testobj = {
+	test: t.t,
+};
+
+console.log(sum(1, 5));
